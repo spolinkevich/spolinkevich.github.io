@@ -1,0 +1,39 @@
+/* Main Navigation */
+
+.navbar {
+    width: 100%;
+    display: table;
+    font-family: 'Anton', sans-serif;
+    font-size: 120%;
+    font-family: cursive;
+    background:url(../images/overlay.png) rgb(52, 27, 43);
+    position: relative;
+    color: crimson;
+    
+}
+
+.navbar-nav {
+    list-style: none;
+    width:auto; 
+    float:right;
+}
+
+.navbar .logo {
+    position: absolute;
+    left: 1em;
+}
+
+.navbar-nav li {
+    display: inline-block;
+        padding: 10px 10px; 
+}
+.navbar a {
+    color: brown; 
+    font-size:1.2em;    
+    padding: 10px 20px;
+}
+
+.navbar a:hover, .navbar a:focus, .navbar a:active, .navbar a.active {
+    color: #fed136;
+    background: rgba(188, 202, 206, 0.15);;
+}

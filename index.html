@@ -1,143 +1,194 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Brown Bears</title>
-<meta name="description" lang="ua" content="Бурий медвідь">
-<meta name="description" lang="en" content="Brown Bears">
-<meta name="keywords" lang="ua" content="Бурий медвідь, медвідь">
-<meta name="keywords" lang="en" content="Brown Bears, Bears">
-<link href="styles/style.css" rel="stylesheet" type="text/css">
-<style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" lang="ua" content="Бурий медвідь">
+  <meta name="description" lang="en" content="Brown Bears">
+  <meta name="keywords" lang="ua" content="Бурий медвідь, медвідь">
+  <meta name="keywords" lang="en" content="Brown Bears, Bears">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brown Bears</title>
+  <link rel="stylesheet" href="css/main.css"> <!--E:\MyDocs\code-studing\spolinkevich.github.io.git\css-->
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/landing.css">
+  <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">-->
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!--<link rel="icon" href="./favicon.ico">-->
 
+  
+  <style>
+    /* <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> */
+    /* <link href="https://fonts.googleapis.com/css?family=Anton|Heebo:400,500,700,800,900|Roboto:400,400i,700,700i,900,900i" rel="stylesheet"> */
+    #main {
+      border: 2px solid red;
+    }
+
+    #banner {
+      border: 2px solid green;
+    }
+
+    #species {
+      border: 2px solid blue;
+    }
+
+    #features {
+      border: 2px solid rgba(163, 25, 145, 0.623);
+    }
+
+    #habitat {
+      border: 2px solid yellow;
+    }
+
+    #media {
+      border: 2px solid gray;
+    }
+    #footer {
+      border: 2px solid rgb(88, 218, 207);
+    }
+
+    #header-top {
+      border: 2px solid brown;
+    }
   </style>
 </head>
-    
-  <body>
-          <!--site navigation-->
-      <nav class="navbar">
-        <ul class="navbar-nav">
-          <li class="navbar-item"><a class="nav-link" href="./index.html">Main</a></li>
-          <li class="navbar-item"><a class="nav-link" href="./blog.html">Blog</a></li>
-          <li class="navbar-item"><a class="nav-link" href="./about.html">About</a></li>
-          <li class="navbar-item"><a class="nav-link" href="./progects.html">Projects</a></li> 
-          <li class="navbar-item"><a class="nav-link" href="./contacts.html">Contact Us</a></li>
-        </ul>
-      </nav>
-      <!--End of site navigation-->
-    
-    <section id="banner">
-    <article class="inner">
-    <header>
+<body>
+  <!--Navigation-->
+  <nav class="navbar">
+    <!--<p class="logo">SBBF</p>-->
+    <ul class="navbar-nav">
+      <li class="navbar-item active"><a class="nav-link" href="./index.html">Main</a></li>
+      <li class="navbar-item"><a class="nav-link" href="./blog.html">Blog</a></li>
+      <li class="navbar-item"><a class="nav-link" href="./about.html">About</a></li>
+      <li class="navbar-item"><a class="nav-link" href="./progects.html">Projects</a></li>
+      <li class="navbar-item"><a class="nav-link" href="./contacts.html">Contact Us   <i class="fab fa-twitter-square"></i> <i class="fab fa-facebook-square"></i></a></li>
+    </ul>
+    <p class="logo" id="logo">SBBF</p>
+  </nav>
+  <!--End of navigation-->
+
+  <!--Banner-->
+  <header class="header-top" id="header-top">
     <h1>The Brown Bear</h1>
-    </header>
-        <p>This is the way to save an amazing world</p>
-        <footer>
-                <ul class="buttons vertical">
-                    <li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
-                </ul>
-        </footer>
+    <br>
+    <p>This is the way to save an amazing world</p>
+    <br>
+    <a href="#main" class="button fit scrolly">Tell Me More <i class="fas fa-arrow-down"></i></a>
+    <!--<ul class="buttons vertical">
+      <li><a href="#main" class="button fit scrolly">Tell Me More <i class="fas fa-arrow-down"></i></a></li>
+      <i class="fa fa-arrow-down" aria-hidden="true"></i>-->
+      <!--href for 4 fontsawesome-->
+    <!--</ul>-->
+  </header>
+  
+  <!--<section id="banner">
+    <article class="inner">  
+            <footer>
+        <ul class="buttons vertical">
+          <li><a href="#main" class="button fit scrolly">Tell Me More  <i class="fas fa-arrow-down"></i></a></li> <i class="fa fa-arrow-down" aria-hidden="true"></i>--><!--href for 4 fontsawesome
+        </ul>
+      </footer>
     </article>
-    </section>
-      <!-- Main -->
-      <article id="main">
-          <header class="special container">
-            <span class=""><i class="icon fa fa-cog"></i></span>
-            <h2>About Brown Bears</h2>
-            <p>The brown bear (Ursus arctos) is native to of Eurasia and North America. Its conservation status is currently
-            Least Concern. There are many <strong>subspecies within the brown bear</strong> species, including the
-            <strong>Atlas</strong> bear and the Himalayan brown bear.</p>
-              <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
-          </header>
-          
-          <!-- One -->
-           <section class="wrapper style2 container special-alt">
-            <div class="row 50%">
-                <div class="12u">
+  </section>-->
+  <!--End of banner-->
 
-                    <header>
-                        <h3>Species</h3>
-                    </header>
-                    <ul>
-                     <li>Arctos</li>
-                     <li>Collarus</li>
-                     <li>Horribilis</li>
-                     <li>Nelsoni (extinct)</li>
-                     </ul>
-                    <footer>
-                        <ul class="buttons">
-                            <li><a href="#" class="button">Find Out More</a></li>
-                        </ul>
-                    </footer>
+  <!--Main-->
+  <section id="main" class="">
+    <header>
+      <h2>About Brown Bears</h2>
+    </header>
+    <div>The brown bear (Ursus arctos) is native to of Eurasia and North America. Its conservation status is currently
+      Least Concern. There are many <strong>subspecies within the brown bear</strong> species, including the
+      <strong>Atlas</strong> bear and the Himalayan brown bear.<i class="fas fa-angle-down"></i></div>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear" title="Page from wikipedia about brown bears"
+      target="_blank">Learn More</a>
+  </section>
+  <!--end of main-->
 
-                </div>
-
-            </div>
-        </section>
-        
-      <!-- Two -->
-       <section class="wrapper style1 container special">
-        <div class="row">
-                <div class="4u">
-
-                    <section>
-                        <span><i class="icon featured fa fa-check"></i></span>
-                        <header>
-                            <h3>Features</h3>>
-                        </header>
-                        <p>Brown bears are not always <em>completely</em> brown. Some can be reddish or yellowish. They have very large,
-            curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9
-              feet from head to toe.<a href="https://www.mozilla.org/" title="The Mozilla homepage" target="_blank">Find out more</a></p>
-                    </section>
-          
-        </div>
-      
-           
-           <div class="4u">
-
-                    <section>
-                        <span><i class="icon featured fa fa-check"></i></span>
-                        <header>
-                            <h3>Habitat</h3>
-                        </header>
-                        <h3>Countries with Large <strong>Bear Populations</strong></h3>
-                        <ol>
-        <li>Russia</li>
-        <li>United States</li>
-        <li>Canada</li>
-      </ol>
-                        <h3>Countries with Small Brown Bear Populations</h3>
-                        <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France,
-        Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
-               </section>
-
-            </div>
-            </div>
-           </section>
-         
-    
-    
+  <!--One-->
+  <section id="species">
+    <header>
+      <h2>Species</h2>
+    </header>
+    <ul>
+      <li>Arctos</li>
+      <li>Collarus</li>
+      <li>Horribilis</li>
+      <li>Nelsoni (extinct)</li>
+    </ul>
     <footer>
-  
+      <ul class="buttons">
+        <li><a href="https://www.worldwildlife.org/species/brown-bear" class="button" title="Another resourse about brown bears" target="_blank">Find Out More</a></li>
+      </ul>
     </footer>
+
+  </section>
+  <!--End of One-->
+
+  <!--Two-->
+  <section id="features">
+    <header>
+      <h2>Features</h2>
+    </header>
+    <div>Brown bears are not always <em>completely</em> brown. Some can be reddish or yellowish. They have very
+      large,
+      curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range
+      from 5 feet to 9
+      feet from head to toe.<a href="https://en.wikipedia.org/wiki/Brown_bear" title="Page from wikipedia"
+        target="_blank">Learn More</a></div>
+  </section>
+  <!--End two-->
+
+  <!--Three-->
+  <section id="habitat">
+    <header>
+      <h2>Habitat</h2>
+    </header>
+    <h3>Countries with Large <strong>Bear Populations</strong></h3>
+    <ol>
+      <li>Russia</li>
+      <li>United States</li>
+      <li>Canada</li>
+    </ol>
+    <h3>Countries with Small Brown Bear Populations</h3>
+    <div>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland,
+      France,
+      Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.<div>
+  </section>
+  <!--End three-->
   
-    
-      
-     
-    <div id="media">
-      <h2>Media</h2>
-      <a href="https://en.wikipedia.org/wiki/Brown_bear" target="-blank"><img
+  <!--Fore-->
+  <section id="media">
+    <header>
+      <h2>Media</h2><i class="fas fa-anchor"></i>
+    </header>
+    <div class="media-image"><a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"><img
           src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" />
-      </a>
-      <br>
+      </a></div>
+    <div class="media-video">
       <video
         src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4"
         width="320" height="240" controls>
         Video not supported
       </video>
     </div>
-  </body>
-  
-  </html>
+
+  </section>
+  <!--End fore-->
+  <div class="back-top"><a href="#logo"  class="button fit scrolly">To the top of the Page   <i class="fas fa-arrow-alt-circle-up"></i></a></div>
+  <!--Footer-->
+  <footer id="footer">
+      <div class="footer-socials">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-google-plus"></i></a>
+          <a href="#"><i class="fab fa-dribbble"></i></a>
+          <a href="#"><i class="fab fa-reddit"></i></a>
+      </div>
+      
+  </footer>
+  <!--End Footer-->
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* landing page */
+
+.logo {
+    padding-left: 3em;
+    
+}
+
+.header-top {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    position: relative;
+    text-align: center;
+    background: url(../images/Bear2.jpg);
+    background-size: contain;
+        
+}
+
+.header-top a {
+    color: aquamarine;
+        
+}
