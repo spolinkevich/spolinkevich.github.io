@@ -30,13 +30,13 @@ line-height: normal;
 h1 {
     font-family: 'Anton', sans-serif;
     font-size: 2.5em;
-    color: aqua;
+    color: brown;
 }
 
 p {
     font-family: 'Anton', sans-serif;
     font-size: 1.5em;
-    color: aquamarine;
+    color: brown;
 }
 
 .back-top, .footer-socials {
@@ -50,4 +50,5 @@ p {
 a, a:hover, a:focus, a:active, a.active {
 	outline: 0;
     text-decoration: none;
+   
 }
