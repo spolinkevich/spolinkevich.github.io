@@ -6,15 +6,42 @@
 }
 
 .header-top {
-    padding-top: 3em;
-    padding-bottom: 3em;
+    display: block;
+    width: max;
+    height: max;
+    padding-top: 10em;
+    padding-bottom: 10em;
     position: relative;
     text-align: center;
-    background: url(../images/Bear2.jpg);
+    background: url(../images/Bear4.jpg);
     background-size: contain;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    
         
 }
 
  .header-top a {
     color: bisque;  
 } 
+
+.main {
+    display: block;
+    width: max;
+    height: max;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    text-align: center;
+    background: url(../images/Bear1.jpg);
+    background-size: contain;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: aqua;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.4em;
+    line-height: normal;
+}
+

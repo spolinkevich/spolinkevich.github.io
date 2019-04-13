@@ -5,7 +5,7 @@
 /* THIS OPTION DOES NOT WORK FOR SOME REASON */ /*  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 <link href="https://fonts.googleapis.com/css?family=Anton|Heebo:400,500,700,800,900|Roboto:400,400i,700,700i,900,900i" rel="stylesheet"> */
-
+/*
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
     margin: 0;
     padding: 0;
@@ -19,6 +19,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html {
     font-size: 1,5em;
+    background-color: blue;
 }
 
 body {
@@ -33,9 +34,15 @@ h1 {
     color: brown;
 }
 
-p {
+h2 {
     font-family: 'Anton', sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
+    color: brown;
+}
+
+p {font-family: 'Anton', sans-serif;
+    font-size: 1.5em
+    ;
     color: brown;
 }
 
@@ -51,4 +58,17 @@ a, a:hover, a:focus, a:active, a.active {
 	outline: 0;
     text-decoration: none;
    
+} .card-body {
+    background-color: rgb(180, 219, 206);
+*/
+.card-body {
+    background-color: rgba(181, 240, 220, 0.479);\
+   
 }
+
+.card-title, .card-text, .card-link {
+text-align: center;
+font-family: 'Anton', sans-serif;
+ color: dimgray;   
+}
+
