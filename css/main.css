@@ -68,7 +68,7 @@ a, a:hover, a:focus, a:active, a.active {
     /*background-color: rgba(181, 240, 220, 0.479);*/
     background:url(../images/live-header.jpg);
     padding: 2em;
-}
+    }
 
 .card-title, .card-text, .card-link {
 text-align: left;
@@ -103,5 +103,3 @@ body{ /* background image attachment and fix */
     height: 70vh;
     width: 100%;
 } 
-  
- 

@@ -1,69 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no"">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" lang="ua" content="Бурий медвідь">
-  <meta name="description" lang="en" content="Brown Bears">
-  <meta name="keywords" lang="ua" content="Бурий медвідь, медвідь">
-  <meta name="keywords" lang="en" content="Brown Bears, Bears">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <title>About SBBF</title>
-  </head>
-  <body>
-   <!--Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">SBBF</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./blog.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./progects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contacts.html">Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#donate" >Donate</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-   <main>
-       <h1>Who we are</h1>
-       <br>
-       <h3>We protect animals and the places they call home.</h3>
-       <div id="main-text">
-            Our vision is a world where animals are respected and protected. 
-            We rescue individual animals, safeguard populations, preserve habitat, and advocate for a better future.
-            Founded in 2000, we have provided almost 30 years of global leadership, innovation and hands-on 
-            assistance to animals and communities in need. Our holistic conservation approach includes reducing 
-            the demand and exploitation of wildlife at the source; working together with communities and enforcers 
-            to shut down poaching networks; pioneering first-ever successes in the rescue, rehabilitation and 
-            release of orphan animals back into the wild; activating where  needed most in the wake of global disasters; 
-            and advocating through expert research and solutions to the greatest threats to our planet’s populations and habitats.
-       </div>
-   </main>
-   <aside>
-       <h4>Related articles</h4>
-       <div>
 
-       </div>
-   </aside>
-   <footer>
-       
-   </footer>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1
+    shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" lang="ua" content="Бурий медвідь" />
+  <meta name="description" lang="en" content="Brown Bears" />
+  <meta name="keywords" lang="ua" content="Бурий медвідь, медвідь" />
+  <meta name="keywords" lang="en" content="Brown Bears, Bears" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/blog.css" />
+  <title>About SBBF</title>
+</head>
+
+<body>
+  <!--Navigation-->
+  <nav id="navbar-top" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">SBBF</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./progects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contacts.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#donate">Donate</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main class="main float-left" id="main">
+    <div class="card header-top">
+      <div class="card-body">
+        <h1 class="card-title">Who we are</h1>
+        <br />
+        <h3>We protect animals and the places they call home.</h3>
+        <p class="card-text">
+          Our vision is a world where animals are respected and protected. We
+          rescue individual animals, safeguard populations, preserve habitat,
+          and advocate for a better future. Founded in 2000, we have provided
+          almost 30 years of global leadership, innovation and hands-on
+          assistance to animals and communities in need. Our holistic
+          conservation approach includes reducing the demand and exploitation
+          of wildlife at the source; working together with communities and
+          enforcers to shut down poaching networks; pioneering first-ever
+          successes in the rescue, rehabilitation and release of orphan
+          animals back into the wild; activating where needed most in the wake
+          of global disasters; and advocating through expert research and
+          solutions to the greatest threats to our planet’s populations and
+          habitats.<br /><span><a href="#related-articles" class="card-link"
+              title="Jump down the page to find out more">Tell Me More <i class="fas fa-paw fa-2x"></i></a></span>
+        </p>
+      </div>
+    </div>
+    <div class="card header-card">
+      <div class="card-body">
+        <h3 class="card-title" id="related-articles">Related articles</h3>
+      </div>
+    </div>
+    <div class="related-articles">
+
+      <h5>Bears Will Be Bears<i class="fas fa-paw fa-2x"></i></h5>
+      A few years ago, a bear got into a garage in Whistler and got into some
+      birdseed stored there [watch the video clip]. This wouldn’t be a
+      particularly unusual story, except that he got into the garage by
+      turning the handle on the garage door and walking in. Once inside, the
+      bear ate some birdseed and left his calling card on a shiny Harley
+      Davidson. At some point, though, the bear must have gotten a bit
+      panicked when he realized there was no easy way out of the garage. There
+      were muddy paw prints on a window high off the ground where the bear
+      must have climbed up to check if it might work as an exit. Eventually,
+      he must have decided that the best way out was the way he came in:
+      through the door. This required him to once again turn the door handle,
+      but this time he had to pull the door inward at the same time.
+      Apparently, this wasn’t that much of a problem because the bear managed
+      to drag out two bags of garbage while holding the door open.
+    </div>
+    <div class="related-articles">
+      <h5>Bears Will Be Bears<i class="fas fa-paw fa-2x"></i></h5>
+      And proving it was no accident, he came back the next day, opened the
+      door, got more snacks, and left again. Because bears are so intelligent
+      and motivated to find food, it’s important to stay on top of the
+      situation by properly managing attractants. You can’t change the nature
+      of bears; they’re always going to be looking for food. Unfortunately, if
+      you allow them to access food in peopled areas, they tend to keep upping
+      the ante.
+    </div>
+    <div class="related-articles">
+      <h5>Bears Will Be Bears<i class="fas fa-paw fa-2x"></i></h5>
+      Look at situation in some of the American Parks where bears have learned
+      to break into cars to get food. Not only have they mastered the art of
+      breaking into cars, but they also know the cars by model so that they
+      can break into a car based on the most efficient method for that model
+      of car. A couple of years ago, I was hiking in the Stein Valley and met
+      a couple from the States. A friend of theirs had driven to visit a park
+      and left his car – with some kind of foodstuffs in the trunk. A bear
+      came along and decided to access the food, but he got the model of the
+      car mixed up with one that had a fold-down back seat. In the models that
+      have a fold-down back seat, the best method of breaking in is to go
+      through the back door and ‘put down’ the back seat to access the trunk.
+    </div>
+  </main>
+  <aside class="aside float-right" id="aside">
+    <div class="aside-header">
+      <h5>Featured</h5>
+    </div>
+    <img class="aside-img float-right" id="aside-img-first" alt="bear image" src="./images/cub-in-trap.jpg" />
+    <h5>Building a Bear Smart Community</h5>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab maxime reprehenderit adipisci deserunt eligendi
+      quisquam dolore consequuntur quasi, illo ipsa laudantium eveniet eum neque fugit beatae exercitationem nobis dicta
+      aliquid.<a href="http://www.bearsmart.com/blog/an-interview-with-a-bear-momma-jeanie/"
+        title="jump to the full text" target="_blank">Read more <i class="fas fa-paw fa-2x"></i></a></p>
+
+    <img class="aside-img float-left" id="aside-img-second" alt="bear image" src="./images/Bear1.jpg">
+    <h5>Building a Bear Smart Community</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti incidunt blanditiis deleniti debitis! Atque et
+      eaque, nesciunt, reiciendis sint deserunt illum dolor ut accusantium itaque porro incidunt minima possimus vel! <a
+        href="http://www.bearsmart.com/blog/an-interview-with-a-bear-momma-jeanie/" title="jump to the full text"
+        target="_blank">Read more <i class="fas fa-paw fa-2x"></i></a></p>
+
+    <img class="aside-img float-right" id="aside-img-first" alt="bear image" src="./images/cub-in-trap.jpg" />
+    <h5>Building a Bear Smart Community</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti incidunt blanditiis deleniti debitis! Atque et
+      eaque, nesciunt, reiciendis sint deserunt illum dolor ut accusantium itaque porro incidunt minima possimus vel! <a
+        href="http://www.bearsmart.com/blog/an-interview-with-a-bear-momma-jeanie/" title="jump to the full text"
+        target="_blank">Read more <i class="fas fa-paw fa-2x"></i></a></p>
+    <img class="aside-img float-left" id="aside-img-second" alt="bear image" src="./images/Bear1.jpg">
+    <h5>Building a Bear Smart Community</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti incidunt blanditiis deleniti debitis! Atque et
+      eaque, nesciunt, reiciendis sint deserunt illum dolor ut accusantium itaque porro incidunt minima possimus vel! <a
+        href="http://www.bearsmart.com/blog/an-interview-with-a-bear-momma-jeanie/" title="jump to the full text"
+        target="_blank">Read more <i class="fas fa-paw fa-2x"></i></a></p>
+  </aside>
+  <div class="clearfix"></div>
+  <!--footer-->
+  <div class="card footer-text">
+    <div class="card-header">
+      <ul class="nav nav-pills card-header-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="#navbar-top"><i class="fas fa-arrow-up fa-2x"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/user/BBCEarth" target="_blank"><i
+              class="fab fa-youtube fa-2x"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/bearsmart" target="_blank"><i
+              class="fab fa-twitter fa-2x"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/getbearsmartsociety/" target="_blank"><i
+              class="fab fa-facebook fa-2x"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" target="_blank"><i class="fas fa-video fa-2x"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="card-body footer-down">
+      <a href="./donate.html" class="btn btn-primary">
+        <h5>Donate</h5>
+      </a>
+      <h5 class="card-title">2019 all rights reserved</h5>
+      <p class="card-text">designed and supported by sergiush web-design</p>
+    </div>
+  </div>
+  <!--end footer-->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
