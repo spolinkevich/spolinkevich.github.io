@@ -95,11 +95,19 @@ font-family: 'Anton', sans-serif;
     float: left;
 }
 
-body{ /* background image attachment and fix */
+img {
+    max-width: 100%;
+}
+
+
+
+/* background image attachment and fix */
+/*
+body{ 
        
     background-image:url(../images/water_PNG3271.png);
     background-size: cover; 
     background-attachment:fixed; 
     height: 70vh;
     width: 100%;
-} 
+} */

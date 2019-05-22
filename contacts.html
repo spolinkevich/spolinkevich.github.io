@@ -1,43 +1,159 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>SBBF - Contact Us</title>
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <header>
-    <!--site navigation-->
-    <nav class="navbar">
-      <ul class="navbar-nav">
-        <li class="navbar-item"><a class="nav-link" href="./index.html">Main</a></li>
-        <li class="navbar-item"><a class="nav-link" href="./blog.html">Blog</a></li>
-        <li class="navbar-item"><a class="nav-link" href="./about.html">About</a></li>
-        <li class="navbar-item"><a class="nav-link" href="./progects.html">Projects</a></li> 
-        <li class="navbar-item"><a class="nav-link" href="./contacts.html">Contact Us</a></li>
-      </ul>
-    </nav>
-    <!--End of site navigation-->
-    </header>
-    <main>
-      <h1>SBBF - Contact Us</h1>
-      <div>
-        <h3>Call us</h3>
-      </div>
-      <div>
-          <h3>Address</h3>
-        </div>
-      
-    </main>
-    <aside>
-        <h2>News</h2>
-    </aside>
-    <footer>
+<!doctype html>
+<html lang="en">
 
-    </footer>
-        
- 
- 
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" lang="ua" content="Бурий медвідь">
+  <meta name="description" lang="en" content="Brown Bear">
+  <meta name="keywords" lang="ua" content="Бурий медвідь, медвідь">
+  <meta name="keywords" lang="en" content="Brown Bear, Bear">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="icon" href="./favicon.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="icon" href="./favicon.ico">
+ <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/contacts.css">
+  <!--<link rel="stylesheet" href="./css/grid.css">-->
+  <title>SBBF Contacts</title>
+  <style>
+    .article {
+      border: 2px solid dimgray;
+    }
+  </style>
   
-  </body>
+</head>
+
+<body>
+  <!--Navigation-->
+  <nav id="navbar-top" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">SBBF</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./progects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contacts.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./donate.html">Donate</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Header-->
+  <div class="card header-top">
+    <div class="card-body">
+      <h1 class="card-title">SBBF Contacts</h1>
+      <p class="card-text">Contact Us<br><span><a href="#progects-first" class="card-link"
+            title="Jump down the page to find out more"> <i class="fas fa-arrow-down"> </i></a></span></p>
+    </div>
+  </div>
+  <div class="contacts row">
+    <div class="article 4u" id="mail">
+      <h5>Our adress</h5>
+      <p>01000 Canada</p>
+      <p>Saskatun</p>
+      <p>post box 010101</p>
+      <a href="http://www.bearsmart.com/managing-communities/education/" title="jump to the full text"
+        target="_blank">Mail us<i class="fas fa-paw fa-2x"></i></a></li>
+    </div>
+
+    <div class="article 4u" id="call">
+      <h5>Phone numbers</h5>
+      <p>cell 0101020202</p>
+      <p>cell 0102010201</p>
+      <p>office 0202020202</p>
+    </div>
+
+    <div class="article 4u" id="map">
+      <h5>find us on map</h5>
+      <p>Fundraising is an essential part of running a successful organization. <a
+          href="http://www.bearsmart.com/managing-communities/start-organization/fundraising/"
+          title="jump to the full text" target="_blank">Read more <i class="fas fa-paw fa-2x"></i></a></p>
+    </div>
+  </div>
+
+  <!--<aside class="aside float-right" id="aside">
+    <div class="aside-header" id="aside-header">
+      <p>FEATURED NEWS</p>
+    </div>
+    <img class="aside-img float-right" id="aside-img-first" alt="bear image" src="./images/cub-in-trap.jpg" />
+    <h5>Building a Bear Smart Community</h5>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab maxime reprehenderit adipisci deserunt eligendi
+      quisquam dolore consequuntur quasi, illo ipsa laudantium eveniet eum neque fugit beatae exercitationem nobis dicta
+      aliquid.<a href="http://www.bearsmart.com/blog/an-interview-with-a-bear-momma-jeanie/"
+        title="jump to the full text" target="_blank">Read more <i class="fas fa-paw"></i></a></p>
+
+    <img class="aside-img float-left" id="aside-img-second" alt="bear image" src="./images/Bear1.jpg">
+    <h5>Building a Bear Smart Community</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti incidunt blanditiis deleniti debitis! Atque et
+      eaque, nesciunt, reiciendis sint deserunt illum dolor ut accusantium itaque porro incidunt minima possimus vel! <a
+        href="http://www.bearsmart.com/blog/an-interview-with-a-bear-momma-jeanie/" title="jump to the full text"
+        target="_blank">Read more <i class="fas fa-paw"></i></a></p>
+    <img class="aside-img float-right" id="aside-img-first" alt="bear image" src="./images/cub-in-trap.jpg" />
+        <h5>Building a Bear Smart Community</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti incidunt blanditiis deleniti debitis! Atque et eaque, nesciunt, reiciendis sint deserunt illum dolor ut accusantium itaque porro incidunt minima possimus vel! <a href="http://www.bearsmart.com/blog/an-interview-with-a-bear-momma-jeanie/" title="jump to the full text"
+          target="_blank">Read more <i class="fas fa-paw"></i></a></p>
+     
+      <img class="aside-img float-left" id="aside-img-second" alt="bear image" src="./images/Bear1.jpg">
+      <h5>Building a Bear Smart Community</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti incidunt blanditiis deleniti debitis! Atque et eaque, nesciunt, reiciendis sint deserunt illum dolor ut accusantium itaque porro incidunt minima possimus vel! <a href="http://www.bearsmart.com/blog/an-interview-with-a-bear-momma-jeanie/" title="jump to the full text"
+        target="_blank">Read more <i class="fas fa-paw"></i></a></p></aside>-->
+  
+
+ 
+  <!--footer-->
+  <div class="footer-text footer">
+
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#navbar-top" title="jump to the full text"><i class="fas fa-arrow-up fa-2x"></i>To the
+          top of the page</a>
+      </li>
+    </ul>
+    <div class="footer-socials" id="footer-socials">
+      <a class="nav-link" href="https://www.youtube.com/user/BBCEarth" target="_blank"><i
+          class="fab fa-youtube fa-2x"></i></a>
+      <a class="nav-link" href="https://twitter.com/bearsmart" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+      <a class="nav-link" href="https://www.facebook.com/getbearsmartsociety/" target="_blank"><i
+          class="fab fa-facebook fa-2x"></i></a>
+      <a class="nav-link" href="#" target="_blank"><i class="fas fa-video fa-2x"></i></a>
+    </div>
+    <p>Designed and supported by sergiusz web-design</p>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>

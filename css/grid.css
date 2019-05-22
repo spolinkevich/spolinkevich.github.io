@@ -1,0 +1,94 @@
+.row {
+    border-bottom: solid 1px transparent;
+}
+/*
+.row > * {
+float: left;
+}
+
+.row:after, .row:before {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.row > * {
+    padding: 10px;
+}
+
+.row {
+margin: 10px;    
+}
+
+.\31 2u {
+    width: 100%;
+    clear: none;
+    margin-left: 0;
+}
+
+.\31 1u {
+    width: calc(11*100%/12);
+    clear: none;
+    margin-left: 0;
+}
+
+\31 0u {
+    width: calc(10*100%/12);
+    clear: none;
+    margin-left: 0;
+}
+
+\39 u {
+    width: calc(9*100%/12);
+    clear: none;
+    margin-left: 0;
+}
+
+\38 u {
+    width: calc(8*100%/12);
+    clear: none;
+    margin-left: 0;
+}
+
+\37 u {
+    width: calc(7*100%/12);
+    clear: none;
+    margin-left: 0;
+}
+
+\36 u {
+    width: calc(6*100%/12);
+    clear: none;
+    margin-left: 0;
+}
+
+\35 u {
+    width: calc(5*100%/12);
+    clear: none;
+    margin-left: 0;
+}
+
+\34 u {
+    width: calc(4*100%/12);
+    clear: none;
+    margin-left: 0;
+}
+
+\33 u {
+    width: calc(3*100%/12);
+    clear: none;
+    margin-left: 0;
+}
+
+\32 u {
+    width: calc(2*100%/12);
+    clear: none;
+    margin-left: 0;
+}
+
+\31 u {
+    width: calc(1*100%/12);
+    clear: none;
+    margin-left: 0;
+} */
